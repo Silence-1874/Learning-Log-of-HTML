@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Silence's Page</title>
+</head>
+<body>
+<!--get方式提交：数据拼接到地址栏后面，提交大小有限制 post方式提交:可以提交大文件-->
+<form action="test.html" method="get">
+    <!--文本框 value属性设置默认值-->
+    用户名称：<input type="text" value="默认值"><br>
+    <!--密码框 value属性设置默认值-->
+    用户密码：<input type="password" value="12345"><br>
+    确认密码：<input type="password" value="12345"><br>
+    <!--单选框 name属性分组 checkd="checked"表示默认选中-->
+    性别：<input type="radio" name="sex">男<input type="radio" name="sex">女<br>
+    <!--复选框 checkd="checked"表示默认选中-->
+    擅长语言：C<input type="checkbox" checked="checked"> C++<input type="checkbox">
+     Java<input type="checkbox"> Python<input type="checkbox"> Golang<input type="checkbox"><br>
+    <!--下拉列表框 selected="selected"表示默认选择，不设置则默认第一行-->
+    国籍：<select>
+            <option>--请选择国籍--</option>
+            <option>中国</option>
+            <option>外国</option>
+        </select><br>
+    <!--多行文本输入框-->
+    自我评价：<textarea row="10" cols="20">请输入你对自己的评价</textarea><br>
+    <!--重置按钮 value属性设置按钮上的文本-->
+    <input type="reset" value="恢复默认值">
+    <!--提交按钮 value属性设置按钮上的文本-->
+    <input type="submit" value="提交表单">
+    <!--普通按钮 value属性设置按钮上的文本-->
+    <input type="button" value="我是一个普通按钮">
+    <!--文件上传框-->
+    <input type="file">
+    <!--隐藏框-->
+    <input type="hidden">
+</form>
+</body>
+</html>
