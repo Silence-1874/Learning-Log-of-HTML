@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Silence's Page</title>
+    <style>
+        /*派生选择器*/
+        span {
+            font-size: medium;
+            color: rebeccapurple;
+            border: green 2px solid;
+        }
+
+        /*类选择器 不能以数字开头*/
+        .class1 {
+            color: red;
+        }
+
+        /*ID选择器 不能以数字开头*/
+        #id1 {
+            color: yellowgreen;
+        }
+
+        /*层级选择*/
+        div font {
+            font-size: 150px;
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+<span class="class1">span1</span>
+<span>span2</span>
+<div class="class1">div1</div>
+<div id="id1">
+    <font>grey font</font>
+    div2
+</div>
+</body>
+</html>
